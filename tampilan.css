@@ -1,0 +1,47 @@
+.footer{
+	height:50px;
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding:15px;
+}
+.navbar{
+	font-size:13px;
+	margin-top:20px;
+}
+.navbar-costume{
+	background-color:white;		
+}
+.navbar-toggle .icon-bar{
+	background-color:black;
+	border:2px solid black;
+}
+
+.navbar-brand{
+	font-size:13px;
+	color:black;
+	
+	 
+}
+
+ul li a{
+	color:Black;	
+}
+.navbar-costume .navbar-nav > li > a:hover,
+.navbar-costume .navbar-nav > li > a:focus {
+    color: #2ecd71;
+	background-color:white;
+
+}
+.navbar-costume .navbar-nav > .active > a,
+.navbar-costume .navbar-nav > .active > a:hover,
+.navbar-costume .navbar-nav > .active > a:focus {
+    color: #2ecd71;
+   
+}
+.kerangka_artikel_1{
+	background-color:#efecec;
+}
+.kerangka_artikel_2{
+	margin-top:10px;
+}

@@ -1,0 +1,35 @@
+BASIS DATA:
+NAMA BASIS DATA = karir
+Tabel = user
+Import file karir.sql ke dalam XAMPP
+
+Koneksi ke Basis Data:
+	connection.php
+
+Kerangka Utama (wajib ada):
+	header.php
+	footer.php
+
+Halaman:
+	index.php -> Halaman Awal Website
+	admin.php -> Halaman Admin
+	employer.php -> Halaman Employer (perusahaan)
+	jobseeker.php -> Halaman pencari kerja
+	prodi.php -> Halaman Prodi
+
+Proses:
+	login.php -> Proses login
+	logout.php -> proses logout
+
+
+Validasi User Login:
+	cekadmin.php
+	cekemployer.php
+	cekjobseeker.php
+	cekprodi.php
+Menu:
+	menu_admin.php -> Menu untuk halaman admin.php 
+	menu_employer.php -> menu untuk halaman employer.php
+	menu_jobseeker.php -> menu untuk halaman jobseeker.php
+	menu_prodi.php ->menu untuk halaman prodi.php
+	Menu_index.php -> menu untuk halaman index.php

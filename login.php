@@ -23,8 +23,9 @@ if($result->num_rows < 1) {
 
     $row = $result->fetch_array();
 
-    $_SESSION['username']=$row['user_username'];
+    $_SESSION['username'] = $row['user_username'];
     $_SESSION['level'] = $row['level_user_nama'];
+    $_SESSION['user_id'] = $row['user_id'];
 
     if($_SESSION['level'] == "Administrator") {
         header("Location: admin.php");

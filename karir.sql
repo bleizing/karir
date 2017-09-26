@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 25, 2017 at 11:04 AM
+-- Generation Time: Sep 26, 2017 at 06:34 AM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.11
 
@@ -35,18 +35,16 @@ CREATE TABLE IF NOT EXISTS `article` (
   `article_logo` varchar(50) NOT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`article_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
 
 --
 -- Dumping data for table `article`
 --
 
 INSERT INTO `article` (`article_id`, `article_aktif`, `article_ts`, `article_judul`, `article_isi`, `article_logo`, `user_id`) VALUES
-(1, 1, '2017-09-25 08:37:05', 'gdg', 'dhgfgh', '', 1),
-(2, 1, '2017-09-25 08:37:31', 'dfgdfgh', 'gfhfgh', '', 1),
-(3, 1, '2017-09-25 08:38:24', 'dhht', 'trhrht', '', 1),
-(4, 1, '2017-09-25 09:01:37', 'oi;kl;jkl', 'jlkjkl', '', 5),
-(5, 1, '2017-09-25 09:02:42', 'lkjhgfdkjhgfkjhgfd', 'kjhglkjhgfkjhgfjhknmhgljngkhnglhnkgjhngfhnmhghmghmvgj,fh,jfhgmgchjfgkfgjhmgfkgh,kfgkf', '', 5);
+(27, 1, '2017-09-26 04:15:43', 'Test', 'Ini cuma testing loh beneran deh', '', 1),
+(28, 1, '2017-09-26 04:19:55', 'Tested2', 'Kali ini edit sama judulnya juga', '', 1),
+(33, 1, '2017-09-26 04:33:12', 'ok', 'sip', '', 5);
 
 -- --------------------------------------------------------
 

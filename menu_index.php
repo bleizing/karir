@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li><a href="#"> Home </a> </li>
-			<li><a href="#"> Article </a> </li> <!-- buat CRUD Artikel -->
+			<li><a href="menu_article.php"> Article </a> </li> <!-- buat CRUD Artikel -->
 			<li><a href="#"> Login Member </a> </li> <!-- buat CRUD Artikel -->
 			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Career Center <span class="caret"></span></a>
 				<ul class="dropdown-menu">
